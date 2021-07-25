@@ -1,0 +1,39 @@
+/* Created by Isaac Nsisong */
+
+div {
+    background: black;
+    padding: 2em;
+}
+p {
+    font-size: 4em;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+span {
+    color: transparent;
+    text-shadow: 0 0 30px white;
+    transition: all 0.7s 0.3s ease;
+}
+span:hover {
+    text-shadow: 0 0 0 white;
+    transition: all 0.5s ease-out;
+}
+
+@keyframes blurout {
+    from {
+        text-shadow: 0 0 30px white;
+    }
+    to {
+        text-shadow: 0 0 0 white;
+    }
+}
+
+button {
+    padding: 0.5em;
+    font-family: Tahoma;
+    margin: 5px;
+}
